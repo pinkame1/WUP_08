@@ -18,6 +18,11 @@ bears$SEX<- as.factor(bears$SEX)
 bears$MONTH<- as.factor(bears$MONTH)
 ```
 
+
+```{r}
+boxplot(WEIGHT~SEX,data=bears)
+```
+
 ## Model LENGTH ~ NECK  this is an example  
 
 ```{r}
