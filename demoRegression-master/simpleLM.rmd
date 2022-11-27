@@ -74,9 +74,22 @@ summary (lmChest)
 ```
 
 
-
-
 ```{r}
 lnHeadLen = lm(LENGTH ~ HEADLEN, data = bears) 
 summary (lnHeadLen)
 ```
+
+
+```{r}
+lnHeadWth = lm(LENGTH ~ HEADWTH, data = bears)
+summary(lnHeadWth)
+```
+
+
+1. head length and length
+2. length and chest
+3. length and neck 
+4. length and weight
+5. length and head width
+6. length and age
+
